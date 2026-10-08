@@ -12,41 +12,88 @@
 <header><nav class="nav"><a class="logo" href="#">⚡ Tech in Telugu</a><div class="links"><a href="#tools">Tools</a><a href="#ai">AI</a><a href="#students">Students</a><a href="#tips">Tips</a></div></nav></header>
 <main>
 <section class="hero"><div><p class="tag">తెలుగులో Simple Tech</p><h1>Useful Technology.<br><span>Simple Telugu.</span></h1><p class="hero-text">AI tools, useful websites, calculators, Android tips and student resources — all in one place.</p><a class="button" href="#tools">Explore Tools</a></div><div class="hero-card"><div class="icon">⚡</div><h3>Tech in Telugu</h3><p>Learn. Discover. Use.</p></div></section>
-<section id="tools" class="section"><p class="eyebrow">WORKING TOOLS</p><h2>Free Calculators</h2><div class="tool-grid">
-<div class="tool"><span>🧮</span><h3>Percentage Calculator</h3><label>Percentage</label><input id="percent" type="number" inputmode="decimal" placeholder="50"><label>Number</label><input id="number" type="number" inputmode="decimal" placeholder="2"><button onclick="percentage()">Calculate</button><p id="percentResult"></p></div>
-<div class="tool"><span>🎂</span><h3>Age Calculator</h3><label>Date of Birth</label><input id="dob" type="text" inputmode="numeric" placeholder="DD/MM/YYYY or 07062009" maxlength="10"><button onclick="ageCalculator()">Calculate Age</button><p id="ageResult"></p></div>
-<div class="tool"><span>📊</span><h3>Attendance Calculator</h3><label>Classes attended</label><input id="attended" type="number" inputmode="numeric" placeholder="45"><label>Total classes</label><input id="totalClasses" type="number" inputmode="numeric" placeholder="50"><button onclick="attendance()">Calculate</button><p id="attendanceResult"></p></div>
-</div></section>
+<section id="tools" class="section">
+<p class="eyebrow">🧮 FREE CALCULATORS</p>
+<h2>Free Calculators</h2>
+<p>Daily use ki helpful ayye calculators — simple ga use cheskondi.</p>
+
+<div class="tool-grid">
+
+<div class="tool">
+<span>🧮</span>
+<h3>Percentage Calculator</h3>
+<p>Mee percentage ni easy ga calculate cheskondi.</p>
+
+<label>Percentage</label>
+<input id="percent" type="number" inputmode="decimal" placeholder="Example: 50">
+
+<label>Number</label>
+<input id="number" type="number" inputmode="decimal" placeholder="Example: 200">
+
+<button onclick="percentage()">Calculate</button>
+<p id="percentResult"></p>
+</div>
+
+<div class="tool">
+<span>🎂</span>
+<h3>Age Calculator</h3>
+<p>Mee Date of Birth enter chesi age telusukondi.</p>
+
+<label>Date of Birth</label>
+<input id="dob" type="text" inputmode="numeric" placeholder="DD/MM/YYYY">
+
+<button onclick="ageCalculator()">Calculate Age</button>
+<p id="ageResult"></p>
+</div>
+
+<div class="tool">
+<span>📊</span>
+<h3>Attendance Calculator</h3>
+<p>Mee attendance percentage easy ga calculate cheskondi.</p>
+
+<label>Classes Attended</label>
+<input id="attended" type="number" inputmode="numeric" placeholder="Example: 45">
+
+<label>Total Classes</label>
+<input id="totalClasses" type="number" inputmode="numeric" placeholder="Example: 50">
+
+<button onclick="attendance()">Calculate</button>
+<p id="attendanceResult"></p>
+</div>
+
+</div>
+</section>
   <section id="websites" class="section">
-<p class="eyebrow">FREE WEBSITES</p>
+<p class="eyebrow">🌐 FREE WEBSITES</p>
 <h2>Useful Websites</h2>
+<p>Students mariyu content creators ki useful ayye free websites.</p>
 
 <div class="cards">
 
 <div class="card">
-<b>🎓 Free Study</b>
-<span>Useful websites for students, learning and research.</span>
+<b>🎓 Study Websites</b>
+<span>Students ki learning, research mariyu study kosam useful websites.</span>
 <a class="tool-link" href="https://www.khanacademy.org/" target="_blank">Khan Academy →</a>
 <a class="tool-link" href="https://scholar.google.com/" target="_blank">Google Scholar →</a>
 </div>
 
 <div class="card">
 <b>🎨 Photo Editing</b>
-<span>Free online tools for photos, thumbnails and designs.</span>
+<span>Photos, thumbnails mariyu designs ni online lo easy ga edit cheskondi.</span>
 <a class="tool-link" href="https://www.photopea.com/" target="_blank">Photopea →</a>
 <a class="tool-link" href="https://pixlr.com/" target="_blank">Pixlr →</a>
 </div>
 
 <div class="card">
 <b>🎬 Video Editing</b>
-<span>Online tools for video editing and social media content.</span>
+<span>Videos mariyu social media content ni online lo edit cheskovadaniki useful tools.</span>
 <a class="tool-link" href="https://www.capcut.com/" target="_blank">CapCut →</a>
 <a class="tool-link" href="https://clipchamp.com/" target="_blank">Clipchamp →</a>
 </div>
 
 <div class="card">
 <b>🚀 Creator Tools</b>
-<span>Useful resources for content creators and ideas.</span>
+<span>Content creators ki photos, videos, ideas mariyu YouTube work kosam useful resources.</span>
 <a class="tool-link" href="https://www.pexels.com/" target="_blank">Pexels →</a>
 <a class="tool-link" href="https://unsplash.com/" target="_blank">Unsplash →</a>
 <a class="tool-link" href="https://pixabay.com/" target="_blank">Pixabay →</a>
@@ -57,102 +104,104 @@
 </div>
   </section>
 <section id="ai" class="section alt">
-<p class="eyebrow">AI TOOLS</p>
+<p class="eyebrow">🤖 AI TOOLS</p>
 <h2>Useful AI Tools</h2>
+<p>Study, content creation mariyu daily tasks kosam useful AI tools.</p>
 
 <div class="cards">
 
 <div class="card">
 <b>🤖 ChatGPT</b>
-<span>AI assistant for study, writing, ideas and everyday tasks.</span>
+<span>Questions, study, writing, ideas mariyu daily tasks kosam AI assistant.</span>
 <a class="tool-link" href="https://chatgpt.com/" target="_blank">Open Tool →</a>
 </div>
 
 <div class="card">
 <b>✨ Google Gemini</b>
-<span>AI assistant for questions, ideas and learning.</span>
+<span>Learning, questions, ideas mariyu information kosam useful AI assistant.</span>
 <a class="tool-link" href="https://gemini.google.com/" target="_blank">Open Tool →</a>
 </div>
 
 <div class="card">
 <b>🎨 Canva</b>
-<span>Create designs, presentations and social media posts.</span>
+<span>Posts, thumbnails, presentations mariyu social media designs easy ga create cheskondi.</span>
 <a class="tool-link" href="https://www.canva.com/" target="_blank">Open Tool →</a>
 </div>
 
 <div class="card">
 <b>🖼️ Adobe Express</b>
-<span>Create and edit images, videos and social content.</span>
+<span>Photos, videos mariyu social media content ni quick ga edit cheskondi.</span>
 <a class="tool-link" href="https://www.adobe.com/express/" target="_blank">Open Tool →</a>
 </div>
 
 <div class="card">
 <b>✍️ Grammarly</b>
-<span>Improve grammar, spelling and writing clarity.</span>
+<span>English grammar, spelling mariyu writing clarity improve cheskovadaniki useful.</span>
 <a class="tool-link" href="https://www.grammarly.com/" target="_blank">Open Tool →</a>
 </div>
 
 </div>
 </section>
 <section id="students" class="section">
-<p class="eyebrow">4 • RESUME</p>
+<p class="eyebrow">📄 RESUME</p>
 <h2>Resume Builder</h2>
+<p>Mee details enter chesi professional resume easy ga create cheskondi.</p>
 
 <div class="resume-box">
 <h3>📄 Create Your Professional Resume</h3>
-<p>Enter your details below and create a clean professional resume.</p>
 
-<input id="resumeName" type="text" placeholder="Full Name">
-<input id="resumePhone" type="text" placeholder="Phone Number">
-<input id="resumeEmail" type="email" placeholder="Email Address">
-<input id="resumeLocation" type="text" placeholder="Location">
+<input id="resumeName" type="text" placeholder="Mee Full Name">
+<input id="resumePhone" type="text" placeholder="Mee Phone Number">
+<input id="resumeEmail" type="email" placeholder="Mee Email Address">
+<input id="resumeLocation" type="text" placeholder="Mee City / Location">
 
-<textarea id="resumeObjective" placeholder="Career Objective"></textarea>
-<textarea id="resumeEducation" placeholder="Education"></textarea>
-<textarea id="resumeSkills" placeholder="Skills"></textarea>
-<textarea id="resumeProjects" placeholder="Projects"></textarea>
-<textarea id="resumeCertifications" placeholder="Certifications"></textarea>
+<textarea id="resumeObjective" placeholder="Career Objective — Mee career goal ni short ga rayandi"></textarea>
+<textarea id="resumeEducation" placeholder="Education — Mee education details"></textarea>
+<textarea id="resumeSkills" placeholder="Skills — Mee skills ikkada rayandi"></textarea>
+<textarea id="resumeProjects" placeholder="Projects — Mee projects details"></textarea>
+<textarea id="resumeCertifications" placeholder="Certifications — Mee certifications"></textarea>
 
-<button onclick="createResume()">Create Resume</button>
+<button onclick="createResume()">Create My Resume</button>
 
 <div id="resumePreview" class="resume-preview"></div>
 </div>
 </section>
 
 <section id="tips" class="section alt">
-<p class="eyebrow">5 • ANDROID</p>
+<p class="eyebrow">📱 ANDROID</p>
 <h2>Android Tips & Tricks</h2>
+<p>Mee Android phone ni smart ga use cheyyadaniki useful tips & settings.</p>
 
 <div class="cards">
 
 <div class="card">
 <b>🔐 Privacy & Security</b>
-<span>Learn useful privacy settings, app permissions and security tips.</span>
+<span>App permissions, privacy settings mariyu security tips telusukondi.</span>
 </div>
 
 <div class="card">
 <b>🔋 Battery Tips</b>
-<span>Simple ways to manage battery usage and background apps.</span>
+<span>Battery backup improve cheyyadaniki useful settings nerchukondi.</span>
 </div>
 
 <div class="card">
 <b>💾 Storage Tips</b>
-<span>Learn how to manage phone storage.</span>
+<span>Phone storage ni clean ga manage cheyyadaniki simple tips.</span>
 </div>
 
 <div class="card">
 <b>⚙️ Useful Settings</b>
-<span>Discover helpful Android settings and shortcuts.</span>
+<span>Android lo useful settings & shortcuts gurinchi telusukondi.</span>
 </div>
 
 <div class="card">
 <b>👨‍💻 Developer Options</b>
-<span>Understand useful developer settings and when to use them.</span>
+<span>Developer Options lo useful settings ni simple Telugu lo explain chestham.</span>
 </div>
 
 <div class="card">
 <b>🔢 Android Secret Codes</b>
-<span>Common diagnostic codes may vary by phone, Android version and carrier.</span>
+<span>Mee phone lo support ayye useful diagnostic codes gurinchi information.</span>
 </div>
 
 </div>
