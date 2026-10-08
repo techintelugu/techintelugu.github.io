@@ -34,4 +34,4 @@ preview.innerHTML=`
 
 <button onclick="window.print()">Print / Save as PDF</button>
 </div>`;
-  }
+}
