@@ -1,96 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Tech in Telugu - AI tools, useful websites, online tools, Android tips and student resources in Telugu.">
-  <meta name="google-site-verification" content="lozU0RpYrUM5FnBeLB-zNI74GGSq5V6MBaLI-DNbjII" />
-  <title>Tech in Telugu | AI, Apps, Tools & Tech Tips</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tech in Telugu - useful AI tools, online tools, calculators, Android tips and student resources in simple Telugu.">
+<meta name="google-site-verification" content="lozU0RpYrUM5FnBeLB-zNI74GGSq5V6MBaLI-DNbjII">
+<title>Tech in Telugu | AI, Tools, Calculators & Tech Tips</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav class="nav">
-      <a class="logo" href="#">TT <span>Tech in Telugu</span></a>
-      <div class="links">
-        <a href="#ai">AI Tools</a>
-        <a href="#tools">Online Tools</a>
-        <a href="#students">Students</a>
-        <a href="#tips">Android Tips</a>
-      </div>
-    </nav>
-  </header>
+<header><nav class="nav"><a class="logo" href="#">⚡ Tech in Telugu</a>
+<div class="links"><a href="#tools">Tools</a><a href="#ai">AI</a><a href="#students">Students</a><a href="#tips">Tips</a></div></nav></header>
+<main>
+<section class="hero"><div><p class="tag">తెలుగులో Simple Tech</p><h1>Useful Technology.<br><span>Simple Telugu.</span></h1><p class="hero-text">AI tools, useful websites, calculators, Android tips and student resources — all in one place.</p><a class="button" href="#tools">Explore Tools</a></div><div class="hero-card"><div class="icon">⚡</div><h3>Tech in Telugu</h3><p>Learn. Discover. Use.</p></div></section>
 
-  <main>
-    <section class="hero">
-      <div>
-        <p class="tag">తెలుగులో Simple Tech</p>
-        <h1>Useful Technology.<br><span>Simple Telugu.</span></h1>
-        <p class="hero-text">AI tools, useful websites, online tools, Android tips and student resources — all in one place.</p>
-        <a class="button" href="#categories">Explore Tools</a>
-      </div>
-      <div class="hero-card">
-        <div class="icon">⚡</div>
-        <h3>Tech in Telugu</h3>
-        <p>Learn. Discover. Use.</p>
-      </div>
-    </section>
+<section id="tools" class="section"><p class="eyebrow">WORKING TOOLS</p><h2>Free Calculators</h2><div class="tool-grid">
+<div class="tool"><span>🧮</span><h3>Percentage Calculator</h3><input id="pv" type="number" placeholder="Value"><input id="pt" type="number" placeholder="Total"><button onclick="percentage()">Calculate</button><p id="pr"></p></div>
+<div class="tool"><span>🎂</span><h3>Age Calculator</h3><input id="dob" type="date"><button onclick="ageCalculator()">Calculate Age</button><p id="ar"></p></div>
+<div class="tool"><span>📊</span><h3>Attendance Calculator</h3><input id="att" type="number" placeholder="Classes attended"><input id="tot" type="number" placeholder="Total classes"><button onclick="attendance()">Calculate</button><p id="atr"></p></div>
+</div></section>
 
-    <section id="categories" class="section">
-      <p class="eyebrow">EXPLORE</p>
-      <h2>What are you looking for?</h2>
-      <div class="grid">
-        <a class="card" id="ai" href="#ai-tools"><b>🤖 AI Tools</b><span>Useful AI tools & prompts</span></a>
-        <a class="card" id="tools" href="#online-tools"><b>🛠️ Online Tools</b><span>Free tools for everyday use</span></a>
-        <a class="card" id="students" href="#student-tools"><b>🎓 Student Tools</b><span>Tools for students & learners</span></a>
-        <a class="card" id="tips" href="#android-tips"><b>📱 Android Tips</b><span>Simple mobile tips & tricks</span></a>
-      </div>
-    </section>
-
-    <section id="ai-tools" class="section alt">
-      <p class="eyebrow">AI</p>
-      <h2>AI Tools</h2>
-      <div class="tool-grid">
-        <div class="tool"><span>🤖</span><h3>AI for Students</h3><p>Discover useful AI ideas for study, writing and learning.</p></div>
-        <div class="tool"><span>✍️</span><h3>Prompt Ideas</h3><p>Simple prompts to get better results from AI tools.</p></div>
-        <div class="tool"><span>🧠</span><h3>AI Guides</h3><p>Beginner-friendly explanations of AI features and tools.</p></div>
-      </div>
-    </section>
-
-    <section id="online-tools" class="section">
-      <p class="eyebrow">TOOLS</p>
-      <h2>Free Online Tools</h2>
-      <div class="tool-grid">
-        <div class="tool"><span>🧮</span><h3>Percentage Calculator</h3><p>Quickly calculate percentages.</p></div>
-        <div class="tool"><span>🎂</span><h3>Age Calculator</h3><p>Calculate age from date of birth.</p></div>
-        <div class="tool"><span>🔤</span><h3>Word Counter</h3><p>Count words and characters in text.</p></div>
-      </div>
-    </section>
-
-    <section id="student-tools" class="section alt">
-      <p class="eyebrow">STUDENTS</p>
-      <h2>Student Resources</h2>
-      <div class="tool-grid">
-        <div class="tool"><span>📊</span><h3>Attendance Calculator</h3><p>Understand attendance percentages easily.</p></div>
-        <div class="tool"><span>📄</span><h3>Resume Guide</h3><p>Simple tips for creating a professional resume.</p></div>
-        <div class="tool"><span>💻</span><h3>Useful Websites</h3><p>Helpful websites for study and productivity.</p></div>
-      </div>
-    </section>
-
-    <section id="android-tips" class="section">
-      <p class="eyebrow">MOBILE</p>
-      <h2>Android Tips</h2>
-      <div class="article">
-        <h3>Make your phone easier to use</h3>
-        <p>Learn simple Android settings, useful features, privacy tips and everyday shortcuts in easy Telugu.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <strong>Tech in Telugu</strong>
-    <p>Useful tech explained simply in Telugu.</p>
-    <p>© 2026 Tech in Telugu</p>
-  </footer>
-</body>
-</html>
+<section id="ai" class="section alt"><p class="eyebrow">AI</p><h2>AI Tools & Ideas</h2><div class="cards"><div class="card"><b>🤖 AI for Students</b><span>Study, writing and learning ideas.</span></div><div class="card"><b>✍️ Prompt Ideas</b><span>Simple prompts for better AI results.</span></div><div class="card"><b>🧠 AI Guides</b><span>Beginner-friendly AI explanations.</span></div></div></section>
+<section id="students" class="section"><p class="eyebrow">STUDENTS</p><h2>Student Resources</h2><div class="cards"><div class="card"><b>📄 Resume Guide</b><span>Simple tips for a professional resume.</span></div><div class="card"><b>💻 Useful Websites</b><span>Helpful study and productivity websites.</span></div><div class="card"><b>📚 Study Tools</b><span>Useful resources for learners.</span></div></div></section>
+<section id="tips" class="section alt"><p class="eyebrow">MOBILE</p><h2>Android Tips</h2><div class="article"><h3>Simple Android Tips</h3><p>Learn useful settings, features, privacy tips and shortcuts in easy Telugu.</p></div></section>
+</main>
+<footer><strong>Tech in Telugu</strong><p>Useful tech explained simply in Telugu.</p><p>© 2026 Tech in Telugu</p></footer>
+<script src="script.js"></script></body></html>
