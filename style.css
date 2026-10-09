@@ -59,3 +59,16 @@ border-bottom:1px solid #ddd;
 margin-top:8px;
 white-space:pre-line;
 }
+.profile-photo {
+  width: 110px;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .profile-photo {
+    width: 75px;
+  }
+  }
