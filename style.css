@@ -60,7 +60,7 @@ margin-top:8px;
 white-space:pre-line;
 }
 .profile-photo {
-  width: 110px;
+  width: 140px; 
   height: auto;
   display: block;
   border-radius: 12px;
@@ -69,6 +69,6 @@ white-space:pre-line;
 
 @media (max-width: 600px) {
   .profile-photo {
-    width: 75px;
+    width: 100px;
   }
-  }
+}
